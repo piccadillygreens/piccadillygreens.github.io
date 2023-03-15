@@ -1103,6 +1103,12 @@ section {
 # Video Walkthrough
 --------------------------------------------------------------*/
 
+.walkthrough {
+   display: block;
+   margin: 0 auto;
+   aspect-ratio: 16/9;
+   width: 95%;
+}
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1353,7 +1359,7 @@ section {
   width: 100%;
   border-top: 3px solid #a4c639;
   border-bottom: 3px solid #a4c639;
-  padding: 30px;
+  padding: 15px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -1687,11 +1693,6 @@ section {
 
 #footer {
   font-size: 13px;
-}
-
-iframe {
-   display: block;
-   margin: 0 auto;
 }
 
 .reveal {
