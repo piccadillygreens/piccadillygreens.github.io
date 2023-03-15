@@ -231,9 +231,9 @@ window.addEventListener("scroll", reveal);
   } else if (state == 'complete') {
       setTimeout(function(){
          document.getElementById('interactive');
-         document.getElementById('load').style.visibility="hidden";
+         document.getElementById('loader').style.visibility="hidden";
          document.getElementById('contents').style.visibility="visible";
-      },1000);
+      },3000);
   }
 }
 
