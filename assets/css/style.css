@@ -1689,6 +1689,11 @@ section {
   font-size: 13px;
 }
 
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+
 .reveal {
   position: relative;
   transform: translateY(50px);
