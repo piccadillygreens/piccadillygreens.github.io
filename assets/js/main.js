@@ -1,6 +1,25 @@
 /**
 
 */
+
+    document.onreadystatechange = function() {
+        if (document.readyState !== "complete") {
+            document.querySelector(
+            ".contents").style.visibility = "hidden";
+            document.querySelector(
+            ".loader").style.visibility = "visible";
+        } else {
+            setTimeout(function() {
+			document.querySelector(
+            ".loader").style.display = "none";
+            document.querySelector(
+            ".contents").style.visibility = "visible";
+        },1000);
+		}
+	};
+	
+
+
 !(function($) {
   "use strict";
 
@@ -224,6 +243,7 @@ window.addEventListener("scroll", reveal);
   });
   
   // Loader
-
+  
+  
 
 })(jQuery);
