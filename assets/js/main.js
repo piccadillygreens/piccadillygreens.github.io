@@ -17,11 +17,6 @@
         },1000);
 		}
 	};
-	
-	setTimeout(function(){
-   window.location.reload();
-}, 3000);
-
 
 !(function($) {
   "use strict";
