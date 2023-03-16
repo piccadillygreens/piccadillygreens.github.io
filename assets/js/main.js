@@ -1,8 +1,10 @@
 /**
 
 */
-
-    document.onreadystatechange = function() {
+  
+  // Loader
+  
+  document.onreadystatechange = function() {
         if (document.readyState !== "complete") {
             document.querySelector(
             ".contents").style.visibility = "hidden";
@@ -239,9 +241,6 @@ window.addEventListener("scroll", reveal);
     loop: true,
     items: 1
   });
-  
-  // Loader
-  
-  
+
 
 })(jQuery);
