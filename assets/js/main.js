@@ -4,7 +4,7 @@
   
   // Loader
   
-  document.onreadystatechange = function() {
+  /*document.onreadystatechange = function() {
         if (document.readyState !== "complete") {
             document.querySelector(
             ".contents").style.visibility = "hidden";
@@ -18,7 +18,7 @@
             ".contents").style.visibility = "visible";
         },1000);
 		}
-	};
+	}; */
 
 !(function($) {
   "use strict";

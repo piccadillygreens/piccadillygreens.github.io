@@ -1148,8 +1148,8 @@ section {
 .walkthrough {
    display: block;
    margin: 0 auto;
-   aspect-ratio: 16/9;
    width: 95%;
+   aspect-ratio: 16/9;
 }
 
 /*--------------------------------------------------------------
