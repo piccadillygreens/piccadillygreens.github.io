@@ -242,5 +242,4 @@ window.addEventListener("scroll", reveal);
     items: 1
   });
 
-
 })(jQuery);

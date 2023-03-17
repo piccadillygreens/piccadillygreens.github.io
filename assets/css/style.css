@@ -10,16 +10,19 @@
 @font-face {
   font-family: NexaBlack;
   src: url(../fonts/NexaBlack.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: NexaLight;
   src: url(../fonts/NexaLight.otf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: NexaThin;
   src: url(../fonts/NexaThin.otf);
+  font-display: swap;
 }
 
 body {
@@ -692,7 +695,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #919191;
+  color: #6a6a6a;
 }
 
 /*--------------------------------------------------------------
@@ -1145,7 +1148,7 @@ section {
 # Video Walkthrough
 --------------------------------------------------------------*/
 
-.walkthrough {
+iframe.walkthrough {
    display: block;
    margin: 0 auto;
    width: 95%;
@@ -1736,6 +1739,8 @@ section {
 #footer {
   font-size: 13px;
 }
+
+/* Reveal Animation */
 
 .reveal {
   position: relative;
