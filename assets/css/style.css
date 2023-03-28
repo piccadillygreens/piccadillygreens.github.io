@@ -109,8 +109,8 @@ h1, h2, h3, h4, h5, h6 {
 	content: "";
 	width: 75px;
 	height: 75px;
-	border: 15px solid #dddddd;
-	border-top-color: #a4c639;
+	border: 8px solid #a4c639;
+	border-top-color: transparent;
 	border-radius: 50%;
 	animation: loading 0.75s ease infinite;
 }
